@@ -146,7 +146,7 @@ img{
 	text-align: center;
 }
 .course {
-    width: 195px;
+    width: 255px;
     height: auto;
     border: 2px solid #acbbdc;
     border-radius: 20px;
@@ -159,7 +159,7 @@ img{
 	grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
 }
 .course-icon {
-    height: 84px;
+    height: 94px;
     background-color: thistle;
 }
 
@@ -192,7 +192,9 @@ p.desc {
 	position: relative;
 	left: 45%;
 }
-
+.container:first-child {
+    padding-top: 0;
+}
 @media (max-width: 700px){
 	.img-wrapper{display: none;}
 	.header-right{display: none;}
